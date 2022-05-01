@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css>
+  <title>ANTONIO</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+
+  <!--
+    - main container
+  -->
+  <div class="container">
+
+    <!--
+      - #HEADER SECTION
+    -->
+
+    <header class="">
+      <div class="navbar">
+
+        <!--
+          - menu button for small screen
+        -->
+        <button class="navbar-menu-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+        <!--
+          - navbar navigation
+        -->
+
+        <nav class="">
+          <ul class="navbar-nav">
+
+            <li> <a href="index.html" class="navbar-link">HOME</a> </li>
+            <li> <a href="action.html" class="navbar-link">Action and Adventure</a> </li>
+            <li> <a href="comedy.html" class="navbar-link">Comedy and Crime</a> </li>
+            <li> <a href="thriller.html" class="navbar-link">Thriller and Horror</a> </li>
+            <li> <a href="anime.html" class="navbar-link">Animated and Sci-Fi</a> </li>
+
+          </ul>
+        </nav>
+
+        <!--
+          - search and sign-in
+        -->
+
+        <div class="navbar-actions">
+
+          <form action="#" class="navbar-form">
+            <input type="text" name="search" placeholder="Search" class="navbar-form-search">
+
+            <button class="navbar-form-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="navbar-form-close">
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+          </form>
+
+
+          <!--
+            - search button for small screen
+          -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <a href="#" class="navbar-signin">
+            <span>Sign in</span>
+            <ion-icon name="log-in-outline"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+    </header>
+
+
+
+
+
+    <!--
+      - MAIN SECTION
+    -->
+    <main>
+      <!--
+        - #MOVIES SECTION
+      -->
+      <section class="movies" id="movies">
+
+        <!--
+          - filter bar
+        -->
+        <div class="filter-bar">
+
+          <div class="filter-radios">
+
+            <input type="radio" name="grade" id="movies" checked>
+            <label for="movies">Comedy and crime</label>
+          </div>
+
+        </div>
+
+
+        <!--
+          - movies grid
+        -->
+
+        <div class="movies-grid">
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/red.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>6.4</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">RED</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 10 MAY 2022</span>
+                <span class="year">20:21</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/widows.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>7.4</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">WIDOWS</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 18 MAY 2022</span>
+                <span class="year">20:17</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/prisoners.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>N/A</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">PRISONERS</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 19 MAY 2022</span>
+                <span class="year">20:21</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/yara.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>6.8</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">YARA</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 21 MAY 2022</span>
+                <span class="year">20:21</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/xtreme.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>8.2</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">XTREME</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 21 AUGUST 2022</span>
+                <span class="year">20:21</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/joker.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>8.3</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">JOKER</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 22 JULY 2022</span>
+                <span class="year">18:00</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/3idiots.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>7.6</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">3 IDIOTS</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 23 JULY 2022</span>
+                <span class="year">18:21</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/grownups.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>8.0</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">GROWN UPS</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 25 AUGUST 2022</span>
+                <span class="year">20:06</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/deadpool.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>9.0</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">DEADPOOL</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 23 JULY 2022</span>
+                <span class="year">18:08</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/ted.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>7.3</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">TED</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 17 JUNE 2022</span>
+                <span class="year">18:18</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/wardogs.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>6.7</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">WAR DOGS</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 07 JULY 2022</span>
+                <span class="year">18:18</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/vacation.jfif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>8.9</span>
+                </div>
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">VACATION</h3>
+
+              <div class="card-info">
+                <span class="genre">STREAMING 1 JUNE 2022</span>
+                <span class="year">18:03</span>
+              </div>
+            </div>
+
+          </div>
+
+          </div>
+
+        </div>
+
+        <!--
+          - load more button
+        -->
+        <button class="load-more">LOAD MORE</button>
+
+      </section>
+
+    <!--
+      - FOOTER SECTION
+    -->
+    <footer>
+
+      <div class="footer-content" id="Contacts">
+
+          <div class="social-link">
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+
+        <div class="footer-links">
+          <ul>
+
+            <h4 class="link-heading">AnTONIO</h4>
+          </ul>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </div>
+  
+<!---->
+
+<!--Goto button-->
+<div class="scroll">
+    <a href="#movies"><i class="fas fa-arrow-up"></i></a>
+</div>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/main.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
